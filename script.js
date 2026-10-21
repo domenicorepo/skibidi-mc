@@ -23,6 +23,8 @@ async function copyText(text) {
   }
 }
 
+//TEST!
+
 copyButton.addEventListener("click", async () => {
   const success = await copyText(textToCopy);
   const originalLabel = copyButton.textContent;
