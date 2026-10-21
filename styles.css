@@ -1,0 +1,27 @@
+body {
+    font-family: system-ui, sans-serif;
+    color: #1b1b1f;
+    background: url("background.jpg") center / cover no-repeat fixed;
+    margin: 0;
+    padding: 24px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#greeting {
+    color: #3b82f6;
+    font-size: 4rem;
+}
+
+button {
+    padding: 16px 32px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    cursor: pointer;
+}
